@@ -34,7 +34,7 @@ class _ImageSearchPageState extends State<ImageSearchPage> {
 
   Future<void> fetchImages(String query) async {
     if (query.isEmpty) {
-      _showErrorDialog('Silakan masukkan istilah pencarian.');
+      _showErrorDialog('Please enter a search term.');
       return;
     }
 
